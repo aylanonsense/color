@@ -1,0 +1,41 @@
+{
+  "name": "color",
+  "version": "0.0.1",
+  "description": "Me trying to understand color.",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js --presets env",
+    "start:watch": "nodemon index.js --exec babel-node --presets env",
+    "test": "mocha --require babel-register",
+    "test:watch": "nodemon --exec \"mocha --require babel-register\""
+  },
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "node": "8.5.0"
+          },
+          "debug": false
+        }
+      ]
+    ],
+    "plugins": [
+      "transform-object-rest-spread"
+    ]
+  },
+  "nodemonConfig": {
+    "ext": "js,json"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
+  "devDependencies": {
+    "expect": "^22.0.1",
+    "mocha": "^4.0.1",
+    "nodemon": "^1.13.3"
+  }
+}
