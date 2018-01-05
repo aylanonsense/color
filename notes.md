@@ -20,6 +20,12 @@ Human eyes perceive luminance non-linearly, and more easily detect changes in lu
 ### Abney Effect
 Human eyes perceive a shift in hue when white light is added to a colored light. Some color spaces may correct for this effect.
 
+### Helmholtz–Kohlrausch Effect
+Colored light appears to have greater luminance than white light, even when their luminance is held constant. This is especially apparent for blues and reds, but not as much for greens and yellows.
+
+### Color Constancy
+And object is perceived as being the same color even under varying lighting conditions. The human brain will "correct" for a light source.
+
 ## Color Space
 A color space is a means of quantifying and describing colors objectively. There are many reasons and purposes for constructing a color space.
 
