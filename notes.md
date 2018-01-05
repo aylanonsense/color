@@ -45,6 +45,8 @@ Researchers leveraged the fact that the human eye can react identically to two d
 ### CIE XYZ
 Bescause negative light is impossible to reproduce and therefore an undesirable property for a color space, CIE RGB was transformed to represent combinations of three *imaginary* colors that are physically impossible but allowed all perceivable colors to be represented using non-negative values. The CIE XYZ color space was made from these results with other desirable transformation, such as transforming the color space so that the Y dimension would represent luminance.
 
+Because it can represent all perceivable colors, this color space is used as a basis for almost all other color spaces.
+
 ### Device-Dependent Color Spaces
 Most digital devices combine red, green, and blue light to produce colors. The gamut of the device (the possible chromaticities producible with those specific red, green, and blue lights) is the triangle produced by those three colors on the CIE XYZ chromaticity diagram
 
